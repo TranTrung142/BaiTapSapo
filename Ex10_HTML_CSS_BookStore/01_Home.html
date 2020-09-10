@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="./Home.css"> -->
+    <link rel="stylesheet" href="./css/01_Home.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" /> -->
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid tieude">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./09_Sign_Up.html">O Đăng kí</a>
+                    </li>
+
+                </ul>
+                <!-- <img class="float-right" src="./image/home/icon/social.png" alt="mạng xã hội"> -->
+                <div class="mangxahoi">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img class="logobook" src="./image/home/icon/logo.png" height="50" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid danhmuc">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-5 col-lg-6 children">
+                    <div class="dropdown  ">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="./image/home/icon/icon.png" alt=""> Danh mục sách</a>
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu text-center">
+                            <li class="dropdown-header">Tiểu thuyết</li>
+                            <hr class="light">
+                            <li><a class="dropdown-item" href="#">Sherlock holmes</a></li>
+                            <li><a class="dropdown-item" href="#">Harry potter</a></li>
+                            <li class="divider"></li>
+                            <hr class="light">
+                            <li class="dropdown-header">Truyện tranh</li>
+                            <hr class="light">
+                            <li><a class="dropdown-item" href="#">Conan</a></li>
+                            <li><a class="dropdown-item" href="#">Naruto</a></li>
+                            <li><a class="dropdown-item" href="#">One piece</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-lg-4 children">
+                    <form class="form-inline float-left" action="/action_page.php" style="padding-bottom: 5px;">
+                        <input class="form-control mr-sm-2" type="text" id="search" name="search" placeholder="tim kiem sach">
+                    </form>
+                </div>
+                <div class=" col-sm-12 col-md-3 col-lg-2 children giohang">
+                    <a href=""> <img src="./image/home/icon/icongh.png" alt=""> Giỏ hàng: 0</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center my-4">
+            <div class="col-sm-12 col-md-9">
+                <div id="slides" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#slides" data-slide-to="0" class="active"></li>
+                        <li data-target="#slides" data-slide-to="1"></li>
+                        <li data-target="#slides" data-slide-to="2"></li>
+                        <li data-target="#slides" data-slide-to="3"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./image/home/book/bg.png">
+                            <div class="carousel-caption">
+                                <img class="img-fluid float-left" src="./image/home/book/img_holder.png" alt="">
+                                <h1 class="display-2">Con chó nhỏ mang giỏ hoa hồng</h1>
+                                <p>Con Chó Nhỏ Mang Giỏ Hoa Hồng là tác phẩm mới nhất của nhà văn chuyên viết cho thanh thiếu niên Nguyễn Nhật Ánh, nối tiếp sau Bẩy bước tới mùa hè, Tôi thấy hoa vàng trên cỏ xanh… gây sóng gió thị trường sách năm 2015. </p>
+                                <button href="#" type="button" class="btn btn-outline-light btn-lg">
+                                Chi tiết
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/home/book/bg.png">
+                            <div class="carousel-caption ">
+                                <img class="img-fluid float-left" width="200px" src="./image/home/book/harry.png" alt="">
+                                <h1 class="display-2">Harry Potter</h1>
+
+                                <button href="#" type="button" class="btn btn-outline-light btn-lg">
+                                Chi tiết
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/home/book/bg.png">
+                            <div class="carousel-caption">
+                                <img class="img-fluid float-left" width="200px" src="./image/home/book/zhivago.jpg" alt="">
+                                <h1 class="display-2">Bác sĩ zhivago</h1>
+
+                                <button href="#" type="button" class="btn btn-outline-light btn-lg">
+                                Chi tiết
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/home/book/bg.png">
+                            <div class="carousel-caption">
+                                <img class="img-fluid float-left" width="200px" src="./image/home/book/mayman.jpg" alt="">
+                                <h1 class="display-2">Kẻ may mắn</h1>
+
+                                <button href="#" type="button" class="btn btn-outline-light btn-lg">
+                                Chi tiết
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 sachtomau">
+                <img class="img-fluid" src="./image/home/book/sceret.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-sm-12 col-md-4 ">
+                <img src="./image/home/book/goiqua.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="./image/home/book/tuasach.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="./image/home/book/goiqua.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr class="light">
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 style="font-family: Arial, Helvetica, sans-serif;">SÁCH MỚI PHÁT HÀNH</h1>
+                <hr class="light" style="margin-bottom:0px ; width: 5%; background-color: #3dc766;">
+                <hr class="light" style="margin-top: 6px; width: 5%;  background-color: #3dc766;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row welcome">
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-4" style="height: 100%; width: 150px;">
+                            <img class=" card-img-right img-fluid" style="height: 100%; width: 100% ;" src="./image/home/book/harry.png" alt="">
+                        </div>
+                        <div class="col-8 card-body float-right text-left">
+                            <h5 class="card-title">Harry Potter and the Deathly Hallows</h5>
+                            <h6>Tác giả: J. K. Rowling</h6>
+                            <h6 style="color: #1c4dd4;">560.000 đ</h6>
+                            <p class="card-text">Tập 7, tập cuối cùng trong bộ sách Harry Potter với tên gọi Harry Potter và những thần chết đã đồng loạt phát hành trên toàn thế giới vào ngày 21-7.</p>
+                            <div class="row">
+                                <div style="padding-right: 10px; padding-left: 16px;">
+                                    <img src="./image/home/book/muahang.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="./image/home/book/timkiem.png" alt="" style="width: 36px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img src="./image/home/book/thulihon.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img src="./image/home/book/mayman.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img src="./image/home/book/oxford.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding my-3">
+        <div class="row welcome">
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-4" style="height: 100%; width: 150px;">
+                            <img class=" card-img-right img-fluid" style="height: 100%; width: 100% ;" src="./image/home/book/catching.jpg" alt="">
+                        </div>
+                        <div class="col-8 card-body float-right text-left">
+                            <h5 class="card-title">Harry Potter and the Deathly Hallows</h5>
+                            <h6>Tác giả: J. K. Rowling</h6>
+                            <h6 style="color: #1c4dd4;">560.000 đ</h6>
+                            <p class="card-text">Tập 7, tập cuối cùng trong bộ sách Harry Potter với tên gọi Harry Potter và những thần chết đã đồng loạt phát hành trên toàn thế giới vào ngày 21-7.</p>
+                            <div class="row">
+                                <div style="padding-right: 10px; padding-left: 16px;">
+                                    <img src="./image/home/book/muahang.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="./image/home/book/timkiem.png" alt="" style="width: 36px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img src="./image/home/book/nhungdem.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img src="./image/home/book/zhivago.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 sachmoiphathanh">
+                <img class="img-fluid" src="./image/home/book/nhungduaconrairac.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr class="light">
+    <div class="container-fluid padding tieuthuyetbanchay text-center">
+        <div>
+            <h4 class="tieuthuyet">tiểu thuyết bán chạy</h4>
+            <hr class="light" style="margin-bottom:0px ; width: 5%; background-color: #3dc766;">
+            <hr class="light" style="margin-top: 6px; width: 5%;  background-color: #3dc766;">
+            <!-- <hr class="light"> -->
+        </div>
+        <div class="row welcome text-center padding">
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid sachbanchay" src="./image/home/book/thefault.jpg" alt="">
+                    <img class="sale" src="./image/home/book/sale.png" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6>The fault in our stars</h6>
+                        </div>
+                        <div class="card-text">
+                            <span style="color:rgba(6, 114, 51, 0.667);">90.000 đ |</span>
+                            <span style="text-decoration: line-through; color: #aaaaaa;">120.000 đ</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./image/home/book/danbrown.jpg" alt="">
+                    <img class="sale" src="./image/home/book/sale.png" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6>The lost symbol</h6>
+                        </div>
+                        <div class="card-text">
+                            <span style="color:rgba(6, 114, 51, 0.667);">90.000 đ |</span>
+                            <span style="text-decoration: line-through; color: #aaaaaa;">120.000 đ</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./image/home/book/neuemkhong.jpg" alt="">
+                    <img class="sale" src="./image/home/book/sale.png" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6>Nếu em không phải một giấc mơ</h6>
+                        </div>
+                        <div class="card-text">
+                            <span style="color:rgba(6, 114, 51, 0.667);">90.000 đ |</span>
+                            <span style="text-decoration: line-through; color: #aaaaaa;">120.000 đ</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./image/home/book/kiepsau.jpg" alt="">
+                    <img class="sale" src="./image/home/book/sale.png" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6>Kiếp sau</h6>
+                        </div>
+                        <div class="card-text">
+                            <span style="color:rgba(6, 114, 51, 0.667);">90.000 đ |</span>
+                            <span style="text-decoration: line-through; color: #aaaaaa;">120.000 đ</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding my-5 text-center sachbanchaythang my-5">
+        <div>
+            <h4 class="sachbanchay">Sách bán chạy trong tháng</h4>
+            <hr class="light">
+        </div>
+        <div class="row kesach my-5 ">
+            <div class="col-1"></div>
+            <div class="col-2 sachtrenke img-fluid">
+                <img src="./image/home/book/chuc1ngay.png" alt="">
+            </div>
+            <div class="col-2 sachtrenke">
+                <img src="./image/home/book/daochim.png" alt="">
+            </div>
+            <div class="col-2 sachtrenke">
+                <img src="./image/home/book/mauhiem.png" alt="">
+            </div>
+            <div class="col-2 sachtrenke">
+                <img src="./image/home/book/emgai.png" alt="">
+            </div>
+            <div class="col-2 sachtrenke">
+                <img src="./image/home/book/concho.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid tacgia text-center">
+        <div class="header">
+            <h4>Những tác giả nổi bật</h4>
+            <hr class="light">
+        </div>
+        <div class="row welcome text-center padding">
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img src="./image/home/author/marclevy.jpg" alt="">
+                    <h6>Marc Levy</h6>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img src="./image/home/author/rowling.jpg" alt="">
+                    <h6>J. K. Rowling</h6>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img src="./image/home/author/john.jpg" alt="">
+                    <h6>John Green</h6>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="card">
+                    <img src="./image/home/author/stephenie.jpg" alt="">
+                    <h6>Stephenie Meyer</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding text-left tinhaymoingay">
+        <div class="header text-center">
+            <h4>Tin sách hay mỗi ngày</h4>
+            <hr class="light">
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="card" style="background-color: #dddddd; height: 500px;">
+                    <div style="position: relative;">
+                        <img class="card-img-top" src="./image/home/book/docsach.jpg" alt="">
+                        <img class="time" src="./image/home/book/time.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">10 lý do những người hay đọc sách dễ thành công</h4>
+                        <p class="card-text">Người thành công vươn lên dẫn đầu vì họ đã dành thời gian để đọc và học. Khi họ cầm một cuốn sách, họ không phải chỉ đọc cho hết, mà còn rút ra bài học cho mình.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card" style="background-color: #dddddd; height: 500px; ">
+                    <div style="position: relative;">
+                        <img class="card-img-top" src="./image/home/book/marclevyvanhungcamhung.jpg" alt="">
+                        <img class="time" src="./image/home/book/time.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Marc Levy và những cảm hứng cho các tác phẩm để đời</h4>
+                        <p class="card-text">Bắt đầu viết văn khi đã ở gần tuổi 40, nhưng Marc Levy rất nhanh chóng thành công ngay từ cuốn sách tiểu thuyết đầu tay. Nếu em không phải một giấc mơ, ra mắt năm 2000 và ngay sau đó trở thành một cuốn sách bestseller.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid text-left padding">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">giúp đỡ</h5>
+                    <a href="#">Hướng dẫn mua hàng</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Hướng dẫn thanh toán</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Phương thức vận chuyển</a><br/>
+                    <hr class="light kengang ">
+                    <a class="float-left my-0" href="#">Câu hỏi thường gặp</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">CHÍNH SÁCH</h5>
+                    <a href="#">Chính sách đổi trả</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Chính sách bảo mật</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Điều khoản dịch vụ</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Quy định sử dụng</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">Tài khoản</h5>
+                    <a href="#">Đăng nhập</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Đăng kí</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Thông tin tài khoản</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Kiểm tra giỏ hàng</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">Liên hệ</h5>
+                    <p><img class="img-fluid" width="20px" src="./image/home/icon/pin.png" alt=""> Tầng 4 - Tòa nhà Hanoi Group, 442 Đội Cấn, Ba Đình, Hà Nội</p><br/>
+                    <p><img class="img-fluid" width="20px" src="./image/home/icon/phone.png" alt=""> (04) 6674 2332 Thứ 2 - Chủ nhật: 9:00 - 18:00
+                    </p>
+                    <a href="#" style="color: aqua;">support@bizweb.vn</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid end">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 text-center text-end">
+                    <p>© Bản quyền thuộc về
+                        <span>Bookshop Theme</span>. Phát triển bởi
+                        <span>Bizweb</span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 ">
+                    <img src="./image/home/icon/thanhtoan.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script> -->
+</body>
+
+</html>

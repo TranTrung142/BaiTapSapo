@@ -1,0 +1,63 @@
+@media(max-width: 576px) {
+    .dangki {
+        height: 100px !important;
+        background-image: url(../image/signup/background.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .dangki .overlay h4 {
+        color: white;
+        padding: 0px !important;
+        padding-top: 15px !important;
+        float: left;
+    }
+    .dangki .overlay a,
+    span {
+        color: white;
+        float: left;
+        padding: 15px;
+        padding-right: 0;
+    }
+}
+
+.dangki {
+    background-image: url(../image/signup/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    /* background-color: rgba(rgb(43, 41, 41), green, blue, 0.5); */
+}
+
+.dangki .overlay {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(9, 9, 9, 1) 100%, rgba(78, 95, 98, 1) 100%);
+    width: 100%;
+    margin: 0px 0px !important;
+}
+
+.dangki .overlay h4 {
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.dangki .overlay a {
+    color: white;
+}
+
+.dangki .overlay a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.dangki .overlay span:hover {
+    color: #333333;
+}
+
+.container input {
+    background-color: #dddddd;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="./css/01_Home.css">
+    <link rel="stylesheet" href="./css/09_Sign_Up.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid tieude">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./09_Sign_Up.html">O Đăng kí</a>
+                    </li>
+
+                </ul>
+                <!-- <img class="float-right" src="./image/home/icon/social.png" alt="mạng xã hội"> -->
+                <div class="mangxahoi">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top menu">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img class="logobook" src="./image/home/icon/logo.png" height="50" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid danhmuc">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-5 col-lg-6 children">
+                    <div class="dropdown  ">
+                        <a class="nav-link dropdown-toggle  " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="./image/home/icon/icon.png" alt=""> Danh mục sách</a>
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu text-center">
+                            <li class="dropdown-header">Tiểu thuyết</li>
+                            <hr class="light">
+                            <li><a class="dropdown-item" href="#">Sherlock holmes</a></li>
+                            <li><a class="dropdown-item" href="#">Harry potter</a></li>
+                            <li class="divider"></li>
+                            <hr class="light">
+                            <li class="dropdown-header">Truyện tranh</li>
+                            <hr class="light">
+                            <li><a class="dropdown-item" href="#">Conan</a></li>
+                            <li><a class="dropdown-item" href="#">Naruto</a></li>
+                            <li><a class="dropdown-item" href="#">One piece</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-lg-4 children">
+                    <form class="form-inline float-left" action="/action_page.php" style="padding-bottom: 5px;">
+                        <input class="form-control mr-sm-2" type="text" id="search" name="search" placeholder="tim kiem sach">
+                    </form>
+                </div>
+                <div class=" col-sm-12 col-md-3 col-lg-2 children giohang">
+                    <a href=""> <img src="./image/home/icon/icongh.png" alt=""> Giỏ hàng: 0</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid dangki">
+        <div class="overlay ">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6">
+                    <h4>ĐĂNG KÍ</h4>
+                    <a href="./01_Home.html">Trang chủ / </a>
+                    <span style="color: #a7e7cd;">Đăng kí</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2>Tạo tài khoản</h2>
+        <hr class="light " />
+        <p style="color: black;">Nếu bạn chưa có tài khoản, hãy đăng kí tại đây.</p>
+        <form>
+            <div class="row">
+                <div class="form-group col-12 col-sm-6">
+                    <label for="email">Họ:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Nhập họ" name="email">
+                </div>
+                <div class="form-group col-12 col-sm-6">
+                    <label for="pwd">Tên:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Nhập tên" name="pswd">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-12 col-sm-6">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Nhập email" name="email">
+                </div>
+                <div class="form-group col-12 col-sm-6">
+                    <label for="pwd">Mật khẩu:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="password" name="pswd">
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+            </div>
+            <button type="submit" href="#" class="btn btn-dark btn-lg">Đăng kí</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="container-fluid text-left padding">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">giúp đỡ</h5>
+                    <a href="#">Hướng dẫn mua hàng</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Hướng dẫn thanh toán</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Phương thức vận chuyển</a><br/>
+                    <hr class="light kengang">
+                    <a class="float-left my-0" href="#">Câu hỏi thường gặp</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">CHÍNH SÁCH</h5>
+                    <a href="#">Chính sách đổi trả</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Chính sách bảo mật</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Điều khoản dịch vụ</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Quy định sử dụng</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">Tài khoản</h5>
+                    <a href="#">Đăng nhập</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Đăng kí</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Thông tin tài khoản</a><br/>
+                    <hr class="light kengang">
+                    <a href="#">Kiểm tra giỏ hàng</a>
+                    <hr class="light kengang">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="title">Liên hệ</h5>
+                    <p><img class="img-fluid" width="20px" src="./image/home/icon/pin.png" alt=""> Tầng 4 - Tòa nhà Hanoi Group, 442 Đội Cấn, Ba Đình, Hà Nội</p><br/>
+                    <p><img class="img-fluid" width="20px" src="./image/home/icon/phone.png" alt=""> (04) 6674 2332 Thứ 2 - Chủ nhật: 9:00 - 18:00
+                    </p>
+                    <a href="#" style="color: aqua;">support@bizweb.vn</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid end">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 text-center text-end">
+                    <p>© Bản quyền thuộc về
+                        <span>Bookshop Theme</span>. Phát triển bởi
+                        <span>Bizweb</span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 ">
+                    <img src="./image/home/icon/thanhtoan.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

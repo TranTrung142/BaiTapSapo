@@ -1,0 +1,277 @@
+@media(max-width: 576px) {
+    .logobook {
+        height: 45px;
+        margin-left: 0px;
+    }
+    .carousel .img-fluid {
+        width: 60%;
+        float: initial !important;
+    }
+    .display-2 {
+        font-size: 30px !important;
+    }
+    .carousel p,
+    .sachtomau {
+        display: none;
+    }
+    .sachbanchaythang img {
+        width: 100%;
+    }
+    .tieuthuyetbanchay {
+        height: 1000px !important;
+    }
+    .tacgia {
+        height: 600px !important;
+    }
+    .tinhaymoingay p {
+        font-size: 13px;
+    }
+    .end {
+        height: 140px !important;
+    }
+    .end img {
+        padding-right: 5px !important;
+    }
+    .dropdown-toggle {
+        padding-left: 0 !important;
+    }
+}
+
+.tieude {
+    padding: 0px 0px !important;
+}
+
+.navbar .container-fluid {
+    padding: 20px 4em !important;
+    background-image: url(../image/home/icon/backgroud.png);
+}
+
+.navbar .container-fluid a:hover {
+    color: #333333 !important;
+}
+
+.mangxahoi a {
+    padding-left: 10px;
+    border-left: 0.7px solid #666363;
+    color: #dddddd
+}
+
+.mangxahoi a:hover {
+    color: brown;
+}
+
+.giohang a {
+    color: #666363;
+}
+
+.dropdown a {
+    color: #666363
+}
+
+.dropdown-header {
+    font-size: 26px !important;
+}
+
+.dropdown-menu {
+    background-image: url(../image/home/icon/backgroud.png);
+}
+
+.danhmuc {
+    /* border-bottom: 0.5px solid #dddddd;
+    border-top: 0.5px solid #dddddd; */
+    background-image: url(../image/home/icon/backgroud.png);
+    text-decoration: none;
+    padding-top: 5px;
+    border-top: 0.5px solid #dddddd;
+}
+
+
+/* .danhmuc:hover {
+    text-decoration: none;
+} */
+
+.danhmuc .children {
+    border-right: 0.5px solid #dddddd;
+}
+
+.giohang {
+    padding-top: 9px;
+    color: black;
+}
+
+.giohang:hover a {
+    color: black;
+    text-decoration: none;
+}
+
+.danhmuc .container .row .children input#search {
+    margin-top: 3px;
+    background-color: #fcf8f8;
+    border: none;
+    background-image: url(../image/home/icon/search.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    background-size: 9%;
+    background-position-y: center;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #666363;
+}
+
+.carousel .carousel-indicators li:hover {
+    background-color: #111111;
+}
+
+.carousel .carousel-indicators li:visited {
+    background-color: #111111;
+}
+
+.carousel-inner .display-2 {
+    color: #743232;
+    font-size: 45px;
+}
+
+.carousel-inner p {
+    color: #333333;
+}
+
+.carousel-inner .btn-outline-light {
+    color: #333333;
+}
+
+.container-fluid .welcome .col-12 hr {
+    width: 10%;
+    background-color: blue;
+}
+
+.container-fluid .row .card img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.tieuthuyetbanchay {
+    background-color: #dddddd;
+    height: 600px;
+}
+
+.tieuthuyetbanchay .tieuthuyet {
+    text-transform: uppercase;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.tieuthuyetbanchay .card {
+    width: 80%;
+    height: 420px;
+}
+
+.sachbanchay {
+    margin-top: 50px;
+}
+
+.tacgia {
+    height: 500px;
+    background-color: #dddddd;
+}
+
+.header {
+    padding-top: 70px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #3f3f3f;
+}
+
+footer .row {
+    padding: 50px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a,
+p {
+    color: #bbbbbb;
+    margin: 15px 0;
+}
+
+footer a:hover {
+    color: #f8ecec;
+    margin: 15px 0;
+}
+
+.kengang {
+    background-color: #aaaaaa;
+    width: 90%;
+    float: left;
+}
+
+.sale {
+    position: absolute;
+    opacity: 0.8;
+}
+
+.end {
+    height: 60px;
+    background-color: #272626;
+    font-size: 16px;
+}
+
+.text-end {
+    padding-top: 15px;
+}
+
+.end .row {
+    padding: 0;
+}
+
+.end .row img {
+    padding-top: 15px;
+    float: right;
+    padding-right: 40px;
+}
+
+.end .row span {
+    color: #aaaaaa;
+}
+
+.end .row p {
+    color: #666363;
+}
+
+.sachmoiphathanh img {
+    height: 100%;
+}
+
+.kesach {
+    background-image: url(../image/home/book/thunghiem.png);
+    background-size: 1150px;
+    background-position: center;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position-y: 197px;
+    background-position-x: 20px;
+    padding-bottom: 50px;
+}
+
+.sachtrenke img {
+    /* width: 100%; */
+    height: 94% !important;
+}
+
+.sachtrenke {
+    padding: 0 5px !important;
+}
+
+.tinhaymoingay .time {
+    position: absolute;
+    bottom: 0;
+}
