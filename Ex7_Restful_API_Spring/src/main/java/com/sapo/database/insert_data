@@ -1,0 +1,12 @@
+use newspringboot;
+
+insert into role(code, name) values('ADMIN', 'Quản trị');
+insert into role(code, name) values('USER', 'Người dùng');
+
+insert into user(user_name, password, full_name, status) values('admin', '123', 'Trần Đình Trung', 1);
+insert into user(user_name, password, full_name, status) values('thang', '123', 'Nguyễn Minh Thắng', 1);
+insert into user(user_name, password, full_name, status) values('dinh', '123', 'Nguyễn Huy Định', 1);
+
+insert into user_role(user_id, role_id) values(1,1);
+insert into user_role(user_id, role_id) values(2,1);
+insert into user_role(user_id, role_id) values(3,2);
