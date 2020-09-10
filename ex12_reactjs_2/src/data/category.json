@@ -1,0 +1,31 @@
+[{
+        "id": 1,
+        "name": "Smart phone",
+        "description": "Điện thoại thông minh hay smartphone (tiếng Anh: smartphone) là khái niệm để chỉ loại điện thoại di động tích hợp một nền tảng hệ điều hành di động với nhiều tính năng hỗ trợ tiên tiến về điện toán và có khả năng kết nối với nhiều thiết bị điện tử hiện đại như TV thông minh, máy tính, robot, nhà thông minh hoặc trí thông minh nhân tạo, dựa trên nền tảng cơ bản của điện thoại di động thông thường (điện thoại phổ thông) (tiếng Anh: feature phone)",
+        "manufacturer": "Samsung, Apple, LG, ..."
+    },
+    {
+        "id": 2,
+        "name": "Tablet",
+        "description": "Hiện nay, có rất nhiều tablet khác nhau, khác với nhau trên các thông số và giá cả. Đó là lý do tại sao người tiêu dùng hiện đại là khá khó khăn để lựa chọn một thiết bị cụ thể. Tuy nhiên, có một số thương hiệu mà nằm trong thể loại này xứng đáng được chú ý đặc biệt bởi vì họ kết hợp độ tin cậy cao, chất lượng và chi phí tương đối thấp với chức năng tối đa. Chúng bao gồm các máy tính bảng Uy tín. Nhận xét của các thiết bị đã tạo ra chúng nổi tiếng là rẻ tiền nhất và dễ tiếp cận. Tuy nhiên, ngay cả những người mua khó tính nhất có thể tìm thấy các mô hình chức năng nhất mà ngang ngửa với các nhãn hiệu nổi tiếng.",
+        "manufacturer": "Samsung, Apple, LG, ..."
+    },
+    {
+        "id": 3,
+        "name": "Laptop",
+        "description": "Máy tính xách tay hay máy vi tính xách tay (Tiếng Anh: laptop computer hay laptop PC) là một chiếc máy tính cá nhân nhỏ gọn có thể mang xách được. Nó thường có trọng lượng nhẹ, tùy thuộc vào hãng sản xuất và kiểu máy dành cho mỗi đối tượng có mục đích sử dụng khác nhau.",
+        "manufacturer": "Dell, HP, Asus, Acer, Macbook,..."
+    },
+    {
+        "id": 4,
+        "name": "PC",
+        "description": "Máy tính để bàn có một đơn vị hộp hình chữ nhật gọi là tháp. Tất cả các thành phần của phần cứng bên trong của máy tính nằm trong tháp. Thông thường họ yêu cầu một màn hình bên ngoài, chuột và bàn phím. Nhà sản xuất máy tính Hewlett Packard (viết tắt bằng tiếng Anh HP) chỉ ra rằng máy tính để bàn thường rẻ hơn máy tính xách tay có khả năng tương đương vì các thành phần nhỏ hơn trong máy tính xách tay tốn nhiều chi phí hơn. ",
+        "manufacturer": "Sony, Samsung,..."
+    },
+    {
+        "id": 5,
+        "name": "Tivi",
+        "description": " Ra đời từ thế kỉ 20, chiếc TV đã tác động rất lớn đến chất lượng cuộc sống, làm mới bộ mặt của toàn nhân loại. Không ai có thể phủ nhận lợi ích mà TV đem lại cho cuộc sống của chúng ta, đó là một nguồn thông tin khổng lồ, nguồn giải trí phong phú. Chỉ với chiếc TV nho nhỏ ở phòng khách, chúng ta đã có cơ hội trải nghiệm năm châu bốn bể, mở rộng tầm con mắt về thế giới xung quanh.",
+        "manufacturer": "Sony, Samsung, LG, ..."
+    }
+]

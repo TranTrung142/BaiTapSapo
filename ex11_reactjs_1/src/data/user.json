@@ -1,0 +1,17 @@
+[
+
+    {
+        "id": 1,
+        "userName": "trantrung",
+        "password": "123",
+        "email": "trantrung@gmail.com",
+        "phone": "09999999999"
+    },
+    {
+        "id": 2,
+        "userName": "admin",
+        "password": "123",
+        "email": "admin@gmail.com",
+        "phone": "08888888888"
+    }
+]
